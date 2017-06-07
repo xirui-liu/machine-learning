@@ -32,6 +32,9 @@
  - PlaceDevice
  - InferShape
  
+ Execute the computational graph:
+ https://github.com/dmlc/mxnet/blob/986b736b816018b96e9d1e2c358bb7665b80944d/src/executor/graph_executor.cc#L51
+ 
  http://dlsys.cs.washington.edu/pdf/lecture7.pdf
  ## Runtime Paralle Scheduling 
 http://dlsys.cs.washington.edu/pdf/lecture9.pdf`
