@@ -14,6 +14,7 @@
  Mxnet use Cpython to bind the C++ with python language 
  ## Gradient Calculation (Differentiation API) 
  [Computational Graph](http://colah.github.io/posts/2015-08-Backprop/) by Christopher Olah
+
  Key points:
  Forward-Mode differentiation: 
  Backward-Mode differentiation: We apply it to do the back propogation algorithm. Cuz we just care about taking derivative of loss function with respect to each node
