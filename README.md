@@ -29,15 +29,22 @@
  
  ## Computational Graph Optimization and Execution
  - Memory Planning 
- - Parallel Scheduling
- - GPU accelleration (Decouple the hardware related optimization from the computational graph)
+ - PlaceDevice
+ - InferShape
  http://dlsys.cs.washington.edu/pdf/lecture7.pdf
  ## Runtime Paralle Scheduling 
 http://dlsys.cs.washington.edu/pdf/lecture9.pdf`
  ## GPU Kernels, Optimized Device Code
+ Decouple the hardware related optimization from the computational graph
  http://dlsys.cs.washington.edu/pdf/lecture8.pdf
  ## Accelerators and Hardware 
+ 
 
 # NNVM
 http://dlsys.cs.washington.edu/pdf/lecture16.pdf
+
+Training with Multiple GPUs Using Model Parallelism
+http://mxnet.io/how_to/model_parallel_lstm.html
+
+
  
