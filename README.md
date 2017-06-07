@@ -65,6 +65,10 @@ https://github.com/dmlc/nnvm/blob/master/src/core/symbolic.cc#L509
 Training with Multiple GPUs Using Model Parallelism
 http://mxnet.io/how_to/model_parallel_lstm.html
 
+# Examples
+https://github.com/yuruofeifei/assignment1/blob/master/autodiff_test.py
+https://github.com/yuruofeifei/assignment1/blob/master/autodiff.py
+
 # Reference
 ### MXNet System Architecture
 http://mxnet.io/architecture/overview.html
