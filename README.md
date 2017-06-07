@@ -40,6 +40,11 @@ http://dlsys.cs.washington.edu/pdf/lecture9.pdf`
  http://dlsys.cs.washington.edu/pdf/lecture8.pdf
  ## Accelerators and Hardware 
  
+# Mshadow
+General operation:
+https://github.com/dmlc/mshadow/tree/master/guide
+Cutting-edge techniques:
+https://github.com/dmlc/mshadow/tree/master/guide/exp-template
 
 # NNVM
 http://dlsys.cs.washington.edu/pdf/lecture16.pdf
