@@ -47,15 +47,15 @@ Training with Multiple GPUs Using Model Parallelism
 http://mxnet.io/how_to/model_parallel_lstm.html
 
 # Reference
-## MXNet System Architecture
+### MXNet System Architecture
 http://mxnet.io/architecture/overview.html
 
-## Deep Learning Programming Style
+### Deep Learning Programming Style
 http://mxnet.io/architecture/program_model.html
 
-## Dependency Engine for Deep Learning
+### Dependency Engine for Deep Learning
 http://mxnet.io/architecture/note_engine.html
 
-## Optimizing Memory Consumption in Deep Learning
+### Optimizing Memory Consumption in Deep Learning
 http://mxnet.io/architecture/note_memory.html
  
