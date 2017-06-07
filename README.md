@@ -45,6 +45,7 @@ General operation:
 https://github.com/dmlc/mshadow/tree/master/guide
 Cutting-edge techniques:
 https://github.com/dmlc/mshadow/tree/master/guide/exp-template
+https://en.wikipedia.org/wiki/Expression_templates
 
 # NNVM
 http://dlsys.cs.washington.edu/pdf/lecture16.pdf
