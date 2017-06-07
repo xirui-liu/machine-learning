@@ -53,6 +53,15 @@ https://en.wikipedia.org/wiki/Expression_templates
 # NNVM
 http://dlsys.cs.washington.edu/pdf/lecture16.pdf
 
+### NNVM operator
+https://github.com/dmlc/nnvm/blob/master/include/nnvm/op.h
+
+
+### Connect the front-end to the back-end
+https://github.com/dmlc/mxnet/tree/master/src/c_api
+https://github.com/dmlc/mxnet/blob/master/src/c_api/c_api_symbolic.cc#L93
+https://github.com/dmlc/nnvm/blob/master/src/core/symbolic.cc#L509
+
 Training with Multiple GPUs Using Model Parallelism
 http://mxnet.io/how_to/model_parallel_lstm.html
 
@@ -68,4 +77,7 @@ http://mxnet.io/architecture/note_engine.html
 
 ### Optimizing Memory Consumption in Deep Learning
 http://mxnet.io/architecture/note_memory.html
+
+
+Tinyflow .. To be continued
  
