@@ -31,6 +31,7 @@
  - Memory Planning 
  - PlaceDevice
  - InferShape
+ 
  http://dlsys.cs.washington.edu/pdf/lecture7.pdf
  ## Runtime Paralle Scheduling 
 http://dlsys.cs.washington.edu/pdf/lecture9.pdf`
