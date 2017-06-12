@@ -85,6 +85,17 @@ Requirements: Data used by concurrent operations should be independent
 
 https://stackoverflow.com/questions/22278631/what-does-pragma-unroll-do-exactly-does-it-affect-the-number-of-threads
 
+cudaGetDeviceCount(int* count);
+return the number of devices with compute capabilities greater or equal to 1.0
+
+__host__ cudaError_t cudaSetDevice ( int  device )
+Set device to be used for GPU executions.
+
+_host__ cudaError_t cudaGetDeviceProperties ( cudaDeviceProp* prop, int  device )
+Returns information about the compute-device.
+
+
+
 # Reference
 ### MXNet System Architecture
 http://mxnet.io/architecture/overview.html
