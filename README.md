@@ -69,13 +69,20 @@ http://mxnet.io/how_to/model_parallel_lstm.html
 https://github.com/yuruofeifei/assignment1/blob/master/autodiff_test.py
 https://github.com/yuruofeifei/assignment1/blob/master/autodiff.py
 
+# MShadow
 # CUDA
 http://developer.download.nvidia.com/CUDA/training/StreamsAndConcurrencyWebinar.pdf
+
 Stream: A sequence of operations that execute in issue-order on the GPU
+
 Stride: this is used to deal with pitch allocation in GPU or SSE (align x dimension to 64bit) for efficiency
+
 Pitch memory: aligned location for GPU
+
 Requirements: Data used by concurrent operations should be independent
+
 #program unroll
+
 https://stackoverflow.com/questions/22278631/what-does-pragma-unroll-do-exactly-does-it-affect-the-number-of-threads
 
 # Reference
