@@ -85,16 +85,16 @@ Requirements: Data used by concurrent operations should be independent
 
 https://stackoverflow.com/questions/22278631/what-does-pragma-unroll-do-exactly-does-it-affect-the-number-of-threads
 
-**cudaGetDeviceCount(int* count)**
+**cudaGetDeviceCount(int\* count)**
 return the number of devices with compute capabilities greater or equal to 1.0
 
 **__host__ cudaError_t cudaSetDevice ( int  device )**
 Set device to be used for GPU executions.
 
-**__host__ cudaError_t cudaGetDeviceProperties ( cudaDeviceProp* prop, int  device )**
+**__host__ cudaError_t cudaGetDeviceProperties ( cudaDeviceProp\* prop, int  device )**
 Returns information about the compute-device.
 
-**__host__ cudaError_t cudaMallocPitch ( void** devPtr, size_t* pitch, size_t width, size_t height )**
+**__host__ cudaError_t cudaMallocPitch ( void** devPtr, size_t\* pitch, size_t width, size_t height )**
 Allocates pitched memory on the device.
 Allocates at least width (in bytes) * height bytes of linear memory on the device and returns in *devPtr a pointer to the allocated memory. The function may pad the allocation to ensure that corresponding pointers in any given row will continue to meet the alignment requirements for coalescing as the address is updated from row to row. The pitch returned in *pitch by cudaMallocPitch() is the width in bytes of the allocation. The intended usage of pitch is as a separate parameter of the allocation, used to compute addresses within the 2D array. Given the row and column of an array element of type T, the address is computed as:
 
