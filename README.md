@@ -98,6 +98,42 @@ Returns information about the compute-device.
 Allocates pitched memory on the device.
 Allocates at least width (in bytes) * height bytes of linear memory on the device and returns in *devPtr a pointer to the allocated memory. The function may pad the allocation to ensure that corresponding pointers in any given row will continue to meet the alignment requirements for coalescing as the address is updated from row to row. The pitch returned in *pitch by cudaMallocPitch() is the width in bytes of the allocation. The intended usage of pitch is as a separate parameter of the allocation, used to compute addresses within the 2D array. Given the row and column of an array element of type T, the address is computed as:
 
+**cudaStreamCreat**
+http://on-demand.gputechconf.com/gtc/2014/presentations/S4158-cuda-streams-best-practices-common-pitfalls.pdf
+
+CuDNN has handle: 
+
+Blas has handle:
+```
+cublasHandle_t handle;
+cublasCreate(&handle);
+```
+
+CuDNN handle:
+```
+cudnnStatus_t err = cudnnCreate(&dnn_handle_);
+CHECK_EQ(err, CUDNN_STATUS_SUCCESS) << cudnnGetErrorString(err);
+err = cudnnSetStream(dnn_handle_, stream_);
+```
+
+cudaStreamCreate
+
+This section describes the stream management functions of the CUDA runtime application programming interfac
+doxyen format: http://www.doxygen.org
+```
+typedef typename std::conditional<std::is_floating_point<DType>::value,
+                                 DType, double>::type FType;
+typedef typename std::conditional<std::is_integral<DType>::value,
+                                 std::uniform_int_distribution<DType>,
+                                 std::uniform_real_distribution<FType>>::type GType;
+```                                 
+std::gamma_distribution<GType> dist_gamma(alpha, beta);
+
+### Packet
+allocate a aligned space with num_line * lspace cells
+https://github.com/dmlc/mshadow/blob/master/mshadow/packet-inl.h#L59
+
+
 
 # Reference
 ### MXNet System Architecture
